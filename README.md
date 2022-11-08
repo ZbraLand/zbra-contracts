@@ -1,4 +1,4 @@
-# interface
+# Zbra Contracts
 <img src="https://user-images.githubusercontent.com/116644432/200467196-d6a03660-2c7d-46a3-b792-79efb0ea5587.png" alt="Zbra Land" style="width: 80px;">
 
 🌿 An open source interface for the Zbra

@@ -20,20 +20,22 @@ interface IPriceOracle {
 interface IZbraController {
     /*
      * Called by register, or grab
+     *  the query price will be purchased by `owner`
+     *  if the address is already owned by `owner`, it returns the intrinsic value
      */
     function grabPriceFrom(string memory, uint256 durationInYears, address owner)
-        external
+        external view
         returns (IPriceOracle.Price memory);
 
     /*
      * Called by renew
      */
     function renewPrice(string memory, uint256 durationInYears)
-        external
+        external view
         returns (IPriceOracle.Price memory);
 
 
-    function available(string memory) external returns (bool);
+    function available(string memory) external view returns (bool);
 
     /*
      * durationInYears = 1 means buy the domain for 1 year

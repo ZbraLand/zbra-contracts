@@ -2,3 +2,5 @@
 .deps/
 contracts/artifacts/
 contracts/interface/artifacts/
+
+.env

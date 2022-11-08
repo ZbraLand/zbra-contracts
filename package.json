@@ -1,0 +1,18 @@
+{
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZbraLand/zbra-contracts"
+  },
+  "scripts": {
+    "goerli": "yarn hardhat run --network goerli src/zbra.js",
+    "mainnet": "yarn hardhat run --network goerli src/zbra.js"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.1",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/contracts-upgradeable": "^4.7.3",
+    "hardhat": "^2.12.2"
+  }
+}

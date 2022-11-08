@@ -11,3 +11,28 @@ Zbra is a name service with a magic in-protocol pricing mechanism that provides 
 - Discord: [Zbra](https://discord.gg/U2taE4Nh)
 - Telegram: [Zbra](https://t.me/+3BxK4te9sSljM2Ex)
 - Github: [Zbra](https://github.com/ZbraLand)
+
+
+## Interact with the Contracts
+
+1. Environment Setup
+
+(a) install the nodejs dependencies
+```
+npm install
+```
+
+(b) setup the account with private key. Keep it safe.
+create a file named .env, and copy the privatekey in the .env file.
+
+(c) setup a web3 provider. Use Infura or Alchemy for free. e.g. https://infura.io/
+update the host url in hardhat.config.js
+
+2. Run the script 
+
+```
+npm run goerli
+```
+
+By default is the goerli network. 
+For the mainnet, call "npm run mainnet"

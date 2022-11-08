@@ -1,0 +1,4 @@
+.DS_Store
+.deps/
+contracts/artifacts/
+contracts/interface/artifacts/

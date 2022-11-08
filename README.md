@@ -36,3 +36,13 @@ npm run goerli
 
 By default is the goerli network. 
 For the mainnet, call "npm run mainnet"
+
+3. The Logs will be showed as follows:
+
+$ hardhat run --network goerli src/zbra.js
+Loaded network  goerli 
+Loaded account 0x3bf7307C6f3a42d33C79ED527B76aFdc6B1A4920
+Domain Name 15913.zbra costs: 0.006 ETH
+Register TxHash: 0x8ccd13a8bef71f96c42134e65b717fea3a8595a78c27cf3d54e2c366cbac421f
+Domain Name 15913.zbra new costs: 0.009 ETH
+✨  Done in 28.55s.
